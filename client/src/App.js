@@ -7,6 +7,9 @@ import About from './pages/About';
 import Eventos from './pages/Eventos';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import NewTicketForm from './pages/NewTicket';
+
+import ForgotPassword from './pages/ForgotPassword';
 
 const App = () => {
   return (
@@ -18,6 +21,9 @@ const App = () => {
         <Route path="/eventos" element={<Eventos />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
+        <Route path="/forgot-password" element={<ForgotPassword />} /> 
+        <Route path="/newTicket" element={<NewTicketForm />} /> 
+
       </Routes>
     </Router>
   );

@@ -33,13 +33,13 @@ const Login = () => {
                         <div className="input-container">
                             <input
                                 type="email"
-                                placeholder="Correo Electronico"
+                                placeholder="Ingresa tu correo electronico"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                             <input
                                 type="password"
-                                placeholder="Contraseña"
+                                placeholder="Ingresa tu contraseña"
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                             />
